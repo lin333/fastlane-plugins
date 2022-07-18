@@ -79,3 +79,8 @@ desc '是否是 Gitlab CI 环境'
 lane :is_gitlabe_ci? do
   ENV.key?('GITLAB_CI')
 end
+
+
+  lane :do_updatetag do |options|
+    puts "Hi there"
+  end
